@@ -34,7 +34,7 @@ st.markdown(f"**Dagsetning í dag:** {current_date.date()}")
 
 # Innsláttur notanda
 credit_card_amount1 = st.number_input("Staða á kreditkorti Arion Banka:", min_value=0.0, step=100.0)
-credit_card_amount2 = st.number_input("Staða á kreditkorti Landbanka:", min_value=0.0, step=100.0)
+credit_card_amount2 = st.number_input("Staða á kreditkorti Landsbankanum:", min_value=0.0, step=100.0)
 goal = st.number_input("Markmið fyrir tímabilið (kr.):", min_value=0.0, step=1000.0)
 
 # Reikna út
